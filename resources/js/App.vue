@@ -1,3 +1,11 @@
 <template>
-        <h7>DZAKI LOVE DANI</h7>
-    </template>
+    <div id="navbar">
+        <router-link to="/">
+            Home
+        </router-link>
+        <router-link to="/about">
+            About
+        </router-link>
+    </div>
+    <router-view />
+</template>
